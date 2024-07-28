@@ -14,3 +14,11 @@ C:\Users\caiop\Documents\Workspace\TransacaoFinanceira-main\TransacaoFinanceira-
 C:\Users\caiop\Documents\Workspace\TransacaoFinanceira-main\TransacaoFinanceira-main\obj\Debug\net5.0\ref\TransacaoFinanceira.dll
 C:\Users\caiop\Documents\Workspace\TransacaoFinanceira-main\TransacaoFinanceira-main\obj\Debug\net5.0\TransacaoFinanceira.pdb
 C:\Users\caiop\Documents\Workspace\TransacaoFinanceira-main\TransacaoFinanceira-main\obj\Debug\net5.0\TransacaoFinanceira.genruntimeconfig.cache
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.csproj.AssemblyReference.cache
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.AssemblyInfoInputs.cache
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.AssemblyInfo.cs
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.csproj.CoreCompileInputs.cache
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.dll
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\ref\TransacaoFinanceira.dll
+C:\Users\caiop\Documents\Workspace\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.pdb
