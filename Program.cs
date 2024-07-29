@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace TransacaoFinanceira
 {
@@ -8,7 +7,7 @@ namespace TransacaoFinanceira
     {
         class Program
         {
-           static void Main(string[] args)
+            static void Main(string[] args)
             {
                 var TRANSACOES = new List<Transacao>
             {
@@ -27,11 +26,7 @@ namespace TransacaoFinanceira
                 TRANSACOES.ForEach(item =>
                 {
                     executor.Transferir(item.CorrelationId, item.ContaOrigem, item.ContaDestino, item.VALOR);
-                });
-                // Parallel.ForEach(TRANSACOES, item =>
-                // {
-                //     executor.Transferir(item.CorrelationId, item.ContaOrigem, item.ContaDestino, item.VALOR);
-                // });
+                });          
                 watch.Stop();
                 Console.WriteLine(watch.Elapsed.ToString());
             }
