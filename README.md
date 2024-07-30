@@ -24,6 +24,6 @@ Obs: Voce é livre para implementar na linguagem de sua preferência desde que r
  -> Foi aplicado o "///summary" para explicações das alterações nas classes sem excessos de comentários;
  
  -> Foram criados os seguintes testes unitários: 
-		1-Transferir_TransacaoComSaldoSuficiente_DeveAtualizarSaldos: Verificação se as contas de origem e destino são atualizadas corretamente quando há saldo suficiente na conta de origem;
-		2-Transferir_TransacaoSemSaldoSuficiente_DeveCancelarTransacao: Este teste Verificação se a transação é cancelada corretamente quando não há saldo suficiente na conta de origem;
-		3-Transferir_TransacaoComSaldoSuficiente_DevePersistirSaldos: Verificação se os saldos atualizados são persistidos corretamente após uma transação bem-sucedida.
+		1. Transferir_TransacaoComSaldoSuficiente_DeveAtualizarSaldos: Verificação se as contas de origem e destino são atualizadas corretamente quando há saldo suficiente na conta de origem;
+		2. Transferir_TransacaoSemSaldoSuficiente_DeveCancelarTransacao: Este teste Verificação se a transação é cancelada corretamente quando não há saldo suficiente na conta de origem;
+		3. Transferir_TransacaoComSaldoSuficiente_DevePersistirSaldos: Verificação se os saldos atualizados são persistidos corretamente após uma transação bem-sucedida.
