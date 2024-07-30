@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira-main\\TransacaoFinanceira-main\\TransacaoFinanceira.csproj": {}
+    "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira\\TransacaoFinanceira.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira-main\\TransacaoFinanceira-main\\TransacaoFinanceira.csproj": {
+    "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira\\TransacaoFinanceira.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira-main\\TransacaoFinanceira-main\\TransacaoFinanceira.csproj",
+        "projectUniqueName": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira\\TransacaoFinanceira.csproj",
         "projectName": "TransacaoFinanceira",
-        "projectPath": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira-main\\TransacaoFinanceira-main\\TransacaoFinanceira.csproj",
+        "projectPath": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira\\TransacaoFinanceira.csproj",
         "packagesPath": "C:\\Users\\caiop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira-main\\TransacaoFinanceira-main\\obj\\",
+        "outputPath": "C:\\Users\\caiop\\Documents\\Workspace\\TransacaoFinanceira\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caiop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
