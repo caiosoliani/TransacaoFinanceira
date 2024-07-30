@@ -5,7 +5,7 @@ namespace TransacaoFinanceira
 {
     class AcessoDados
     {
-        Dictionary<int, decimal> SALDOS { get; set; }
+        Dictionary<uint, decimal> SALDOS { get; set; }
         private List<ContasSaldo> TABELA_SALDOS;
 
         public AcessoDados()
@@ -14,7 +14,7 @@ namespace TransacaoFinanceira
             {
                 new ContasSaldo(938485762, 180),
                 new ContasSaldo(347586970, 1200),
-                new ContasSaldo(214748364, 0),
+                new ContasSaldo(2147483649, 0),
                 new ContasSaldo(675869708, 4900),
                 new ContasSaldo(238596054, 478),
                 new ContasSaldo(573659065, 787),
@@ -22,10 +22,10 @@ namespace TransacaoFinanceira
                 new ContasSaldo(674038564, 400),
                 new ContasSaldo(563856300, 1200)
             };
-            SALDOS = new Dictionary<int, decimal> { { 938485762, 180 } };
+            SALDOS = new Dictionary<uint, decimal> { { 938485762, 180 } };
         }
 
-        public T GetSaldo<T>(int id)
+        public T GetSaldo<T>(uint id)
         {
             return (T)Convert.ChangeType(TABELA_SALDOS.Find(x => x.Conta == id), typeof(T));
         }

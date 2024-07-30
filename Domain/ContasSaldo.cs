@@ -1,14 +1,17 @@
 ﻿namespace TransacaoFinanceira
 {
+    /// <summary>
+    /// todas as variáveis alteradas para uint;
+    /// </summary>
     class ContasSaldo
     {
-        public ContasSaldo(int Conta, decimal Valor)
+        public ContasSaldo(uint Conta, decimal Valor)
         {
             this.Conta = Conta;
             this.Saldo = Valor;
         }
 
-        public int Conta { get; set; }
+        public uint Conta { get; set; }
         public decimal Saldo { get; set; }
     }
 }
